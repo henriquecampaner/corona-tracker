@@ -61,4 +61,10 @@ export const Container = styled.main`
       }
     }
   }
+
+  @media (max-width: 800px) {
+    section {
+      margin-left: 30px;
+    }
+  }
 `;

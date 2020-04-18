@@ -9,6 +9,7 @@ export const Container = styled.div`
   width: 10%;
   max-width: 80px;
   background: #141619;
+  margin-right: 10%;
 
   box-shadow: 1px 0px 1px 0px rgba(0, 0, 0, 0.75);
 

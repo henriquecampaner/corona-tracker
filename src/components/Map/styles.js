@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div``;
 
 export const Cases = styled.div`
+  @media (max-width: 800px) {
+    height: 90%;
+  }
+  height: 100%;
   display: flex;
   flex-direction: column;
 

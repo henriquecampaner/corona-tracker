@@ -11,4 +11,10 @@ export const Container = styled.div`
     font-size: 2rem;
     margin-bottom: 30px;
   }
+
+  @media (max-width: 800px) {
+    margin-left: 30px;
+
+    text-align: center;
+  }
 `;

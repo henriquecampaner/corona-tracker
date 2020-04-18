@@ -22,7 +22,7 @@ export const Container = styled.div`
 
   section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 
@@ -42,5 +42,9 @@ export const Container = styled.div`
         margin-right: 20px;
       }
     }
+  }
+
+  @media (max-width: 800px) {
+    margin-left: 80px;
   }
 `;
