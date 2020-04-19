@@ -26,6 +26,8 @@ export const Container = styled.div`
     grid-column-gap: 20px;
     grid-row-gap: 20px;
 
+    margin: auto;
+
     div {
       width: 90%;
       display: flex;
@@ -42,9 +44,5 @@ export const Container = styled.div`
         margin-right: 20px;
       }
     }
-  }
-
-  @media (max-width: 800px) {
-    margin-left: 80px;
   }
 `;
