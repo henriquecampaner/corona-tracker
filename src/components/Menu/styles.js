@@ -17,12 +17,20 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    svg {
-      margin-top: 50px;
+    a {
+      margin: 30px auto;
+    }
 
+    svg {
       &:hover {
         fill: #f5f5f5;
       }
+    }
+  }
+
+  a.active {
+    svg {
+      fill: #f5f5f5;
     }
   }
 `;

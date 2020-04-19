@@ -4,6 +4,9 @@ export const Container = styled.div`
   width: 90%;
   align-self: center;
   text-align: center;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+
+  margin-bottom: 30px;
   h1 {
     font-size: 3rem;
     color: #f5f5f5;

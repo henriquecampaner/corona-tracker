@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 90%;
   margin: auto;
-  height: 100vh;
 
   header {
     display: flex;
@@ -29,7 +28,6 @@ export const Container = styled.div`
     margin: auto;
 
     div {
-      width: 90%;
       display: flex;
       padding: 30px;
       background: #141619;
