@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.main`
-  width: 80%;
-  margin: 50px auto;
+  width: 90%;
+  margin: auto;
   section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -59,12 +59,6 @@ export const Container = styled.main`
           filter: brightness(0.8);
         }
       }
-    }
-  }
-
-  @media (max-width: 800px) {
-    section {
-      margin-left: 30px;
     }
   }
 `;
