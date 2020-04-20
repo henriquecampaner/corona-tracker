@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 90%;
   align-self: center;
   text-align: center;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.75);
 
   margin-bottom: 30px;
   h1 {
@@ -27,10 +27,6 @@ export const Container = styled.div`
     justify-content: space-evenly;
     margin-bottom: 30px;
 
-    @media (max-width: 800px) {
-      justify-content: space-between;
-    }
-
     div {
       display: flex;
       align-items: center;
@@ -47,7 +43,7 @@ export const Container = styled.div`
     @media (max-width: 800px) {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       div {
         flex: 1;
         padding: 10px;

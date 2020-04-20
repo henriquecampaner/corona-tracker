@@ -39,7 +39,7 @@ export default function CountryDetails() {
           <div>
             <FaBriefcaseMedical size={30} color="#fff" />
             <strong>
-              Total Recovered:{' '}
+              Total Recovered:
               {new Intl.NumberFormat().format(country.total_recovered)}
             </strong>
           </div>
@@ -47,7 +47,7 @@ export default function CountryDetails() {
           <div>
             <FaFlask size={30} color="#fff" />
             <strong>
-              Total Active Cases:{' '}
+              Active Cases:
               {new Intl.NumberFormat().format(country.total_active_cases)}
             </strong>
           </div>
@@ -55,7 +55,7 @@ export default function CountryDetails() {
           <div>
             <FaMicroscope size={30} color="#fff" />
             <strong>
-              Total Unresolved:{' '}
+              Total Unresolved:
               {new Intl.NumberFormat().format(country.total_unresolved)}
             </strong>
           </div>
@@ -63,7 +63,7 @@ export default function CountryDetails() {
           <div>
             <FaSkull size={30} color="#fff" />
             <strong>
-              Total Deaths:{' '}
+              Total Deaths:
               {new Intl.NumberFormat().format(country.total_deaths)}
             </strong>
           </div>
@@ -87,7 +87,7 @@ export default function CountryDetails() {
           <div>
             <FaProcedures size={30} color="#fff" />
             <strong>
-              Total Serius Cases:{' '}
+              Serius Cases:
               {new Intl.NumberFormat().format(country.total_serious_cases)}
             </strong>
           </div>

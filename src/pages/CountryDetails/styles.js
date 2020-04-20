@@ -41,6 +41,16 @@ export const Container = styled.div`
       svg {
         margin-right: 20px;
       }
+
+      @media (max-width: 600px) {
+        padding: 20px;
+        strong {
+          font-size: 2rem;
+        }
+        svg {
+          margin-right: 10px;
+        }
+      }
     }
   }
 `;

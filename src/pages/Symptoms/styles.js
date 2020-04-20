@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 90%;
+  height: 100%;
   margin: auto;
   color: #f5f5f5;
 
@@ -31,7 +32,7 @@ export const Container = styled.div`
     justify-content: space-between;
 
     div {
-      width: 80%;
+      width: 100%;
     }
 
     img {
