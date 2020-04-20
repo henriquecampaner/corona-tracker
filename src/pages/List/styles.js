@@ -15,6 +15,11 @@ export const Container = styled.main`
       padding: 5px;
       background: #fff;
       border-radius: 8px;
+      transition: transform 0.2s;
+
+      &:hover {
+        transform: translateY(10px);
+      }
 
       section {
         display: flex;
