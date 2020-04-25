@@ -9,7 +9,7 @@ export default function Menu() {
   return (
     <Container>
       <nav>
-        <NavLink to="/">
+        <NavLink exact to="/">
           <FaMapMarkerAlt size={30} color="#575659" />
         </NavLink>
 

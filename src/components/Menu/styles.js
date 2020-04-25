@@ -15,6 +15,7 @@ export const Container = styled.div`
 
   nav {
     display: flex;
+
     flex-direction: column;
 
     a {

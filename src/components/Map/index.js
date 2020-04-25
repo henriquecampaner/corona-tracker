@@ -1,8 +1,9 @@
+/* eslint-disable camelcase */
 import React, { useState } from 'react';
 
 import ReactTooltip from 'react-tooltip';
 import { FaSkull, FaDna, FaBriefcaseMedical } from 'react-icons/fa';
-import MapChart from '~/components/mapChart';
+import MapChart from './mapChart';
 
 import { Cases, Container } from './styles';
 
