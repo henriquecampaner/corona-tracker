@@ -5,15 +5,18 @@ import Routes from './routes';
 
 import store from './store';
 import GlobalStyles from './styles/global';
+import AppProvider from './hooks';
 
 import './config/ReactotronConfig';
 
 function App() {
   return (
     <Provider store={store}>
-      <Routes />
-      <GlobalStyles />
-      <ToastContainer autoClose={3000} />
+      <AppProvider>
+        <Routes />
+        <GlobalStyles />
+        <ToastContainer autoClose={3000} />
+      </AppProvider>
     </Provider>
   );
 }

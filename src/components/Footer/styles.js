@@ -4,8 +4,8 @@ export const Container = styled.footer`
   text-align: center;
   margin: 20px auto;
   span {
-    font-size: 1.8rem;
-    color: #f5f5f5;
+    font-size: 1.5rem;
+    color: ${(props) => props.theme.colors.text};
 
     span {
       margin: 0 5px;
@@ -19,11 +19,14 @@ export const Container = styled.footer`
 
     a {
       transition: all 0.4s;
+
+      svg {
+        fill: ${(props) => props.theme.colors.text};
+      }
       &:hover {
         filter: brightness(0.5);
       }
     }
-
     svg {
       &:first-child {
         margin-right: 15px;

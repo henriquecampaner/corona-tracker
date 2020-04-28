@@ -33,7 +33,7 @@ const MapChart = ({ setTooltipContent }) => {
   useMemo(() => {
     dispatch(loadCountriesRequest());
     getGeo();
-  }, []);
+  }, [dispatch]);
 
   function getData(geoData) {
     const data = countries.filter((country) => country.code === geoData.ISO_A2);

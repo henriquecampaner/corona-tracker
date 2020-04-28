@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: relative;
   width: 90%;
   align-self: center;
   text-align: center;
@@ -9,11 +10,11 @@ export const Container = styled.div`
   margin-bottom: 30px;
   h1 {
     font-size: 3rem;
-    color: #f5f5f5;
+    color: ${(props) => props.theme.colors.text};
   }
 
   p {
-    color: #f5f5f5;
+    color: ${(props) => props.theme.colors.text};
     font-size: 2rem;
     margin-bottom: 30px;
   }
@@ -30,6 +31,7 @@ export const Container = styled.div`
     div {
       display: flex;
       align-items: center;
+      /* border: 1px solid red; */
 
       svg {
         margin-right: 10px;
@@ -37,7 +39,7 @@ export const Container = styled.div`
 
       strong {
         font-size: 2rem;
-        color: #fff;
+        color: ${(props) => props.theme.colors.text};
       }
     }
     @media (max-width: 800px) {
@@ -58,7 +60,7 @@ export const Container = styled.div`
 
         strong {
           font-size: 1.3rem;
-          color: #fff;
+          color: ${(props) => props.theme.colors.text};
           text-align: center;
         }
       }

@@ -21,10 +21,12 @@ export default createGlobalStyle`
 
   html, body, #root {
     height: 100%;
-    background: #282b2d;
+    background: ${(props) => props.theme.colors.background};
 
     /* this defines what 1rem is (1/10) */
     font-size: 62.5%;
+    
+    transition: all 0.2s;
   }
 
   body {

@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 90%;
   height: 100%;
   margin: auto;
-  color: #f5f5f5;
+  color: ${(props) => props.theme.colors.text};
 
   h1 {
     font-size: 3rem;

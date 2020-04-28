@@ -12,10 +12,10 @@ export default function Footer() {
       </span>
       <div>
         <a href="https://www.linkedin.com/in/henrique-campaner/">
-          <FaLinkedin color="#f5f5f5" size={25} />
+          <FaLinkedin size={25} />
         </a>
         <a href="https://github.com/henriquecampaner">
-          <FaGithub color="#f5f5f5" size={25} />
+          <FaGithub size={25} />
         </a>
       </div>
     </Container>

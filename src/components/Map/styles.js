@@ -57,7 +57,7 @@ export const ButtonContainer = styled.div`
     height: 70px;
     width: 70px;
     background: #ff5533;
-    color: #fff;
+    color: #f5f5f5;
     border-radius: 100%;
     border: 0;
     transition: all 0.2s;

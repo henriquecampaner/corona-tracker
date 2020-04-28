@@ -30,12 +30,19 @@ export const Container = styled.div`
     div {
       display: flex;
       padding: 30px;
-      background: #141619;
+      background: ${(props) =>
+        props.theme.title === 'dark'
+          ? props.theme.colors.primary
+          : props.theme.colors.secundary};
       border-radius: 4px;
+
+      svg {
+        fill: ${(props) => props.theme.colors.text};
+      }
 
       strong {
         font-size: 2.5rem;
-        color: #fff;
+        color: ${(props) => props.theme.colors.text};
       }
 
       svg {

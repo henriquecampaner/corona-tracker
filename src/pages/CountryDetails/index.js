@@ -30,14 +30,14 @@ export default function CountryDetails() {
 
         <section>
           <div>
-            <FaDna size={30} color="#fff" />
+            <FaDna size={30} />
             <strong>
               Total Cases: {new Intl.NumberFormat().format(country.total_cases)}
             </strong>
           </div>
 
           <div>
-            <FaBriefcaseMedical size={30} color="#fff" />
+            <FaBriefcaseMedical size={30} />
             <strong>
               Total Recovered:
               {new Intl.NumberFormat().format(country.total_recovered)}
@@ -45,7 +45,7 @@ export default function CountryDetails() {
           </div>
 
           <div>
-            <FaFlask size={30} color="#fff" />
+            <FaFlask size={30} />
             <strong>
               Active Cases:
               {new Intl.NumberFormat().format(country.total_active_cases)}
@@ -53,7 +53,7 @@ export default function CountryDetails() {
           </div>
 
           <div>
-            <FaMicroscope size={30} color="#fff" />
+            <FaMicroscope size={30} />
             <strong>
               Total Unresolved:
               {new Intl.NumberFormat().format(country.total_unresolved)}
@@ -61,7 +61,7 @@ export default function CountryDetails() {
           </div>
 
           <div>
-            <FaSkull size={30} color="#fff" />
+            <FaSkull size={30} />
             <strong>
               Total Deaths:
               {new Intl.NumberFormat().format(country.total_deaths)}
@@ -69,7 +69,7 @@ export default function CountryDetails() {
           </div>
 
           <div>
-            <FaPlus size={30} color="#fff" />
+            <FaPlus size={30} />
             <strong>
               Cases Today: +
               {new Intl.NumberFormat().format(country.total_new_cases_today)}
@@ -77,7 +77,7 @@ export default function CountryDetails() {
           </div>
 
           <div>
-            <FaSkullCrossbones size={30} color="#fff" />
+            <FaSkullCrossbones size={30} />
             <strong>
               Deaths Today: +
               {new Intl.NumberFormat().format(country.total_new_deaths_today)}
@@ -85,7 +85,7 @@ export default function CountryDetails() {
           </div>
 
           <div>
-            <FaProcedures size={30} color="#fff" />
+            <FaProcedures size={30} />
             <strong>
               Serius Cases:
               {new Intl.NumberFormat().format(country.total_serious_cases)}

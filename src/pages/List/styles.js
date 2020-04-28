@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.main`
   width: 90%;
   margin: auto;
+  color: ${(props) => props.theme.colors.text};
   section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -13,7 +14,10 @@ export const Container = styled.main`
       display: flex;
       flex-direction: column;
       padding: 5px;
-      background: #fff;
+      background: ${(props) =>
+        props.theme.title === 'dark'
+          ? props.theme.colors.primary
+          : props.theme.colors.secundary};
       border-radius: 8px;
       transition: transform 0.2s;
 
@@ -54,7 +58,10 @@ export const Container = styled.main`
         background: #282b2d;
         border-radius: 4px;
         padding: 10px;
-        color: #fff;
+        color: ${(props) =>
+          props.theme.title === 'dark'
+            ? props.theme.colors.text
+            : props.theme.colors.primary};
         font-size: 1.5rem;
         text-align: center;
         margin-top: 10px;

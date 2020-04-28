@@ -7,7 +7,6 @@ import { loadCountriesRequest } from '~/store/modules/countries/action';
 import { loadCountryRequest } from '~/store/modules/country/action';
 
 import { Container } from './styles';
-import Header from '../../components/Header';
 import ContainerPages from '../../components/ContainerPages';
 
 export default function CountriesList() {
@@ -17,7 +16,7 @@ export default function CountriesList() {
 
   useEffect(() => {
     dispatch(loadCountriesRequest());
-  }, []);
+  }, [dispatch]);
 
   function countryDetails(code) {
     dispatch(loadCountryRequest(code));
